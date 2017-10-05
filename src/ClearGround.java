@@ -1,2 +1,6 @@
-public class ClearGround {
+class ClearGround extends GameItem{
+
+    ClearGround(){
+        super('.', "nothing can be sensed");
+    }
 }

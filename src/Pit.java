@@ -1,2 +1,7 @@
-public class Pit {
+class Pit extends GameItem{
+
+    Pit(){
+        super('p', "breeze");
+    }
+
 }

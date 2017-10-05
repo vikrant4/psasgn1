@@ -1,2 +1,6 @@
-public class Gold {
+class Gold extends GameItem{
+
+    Gold(){
+        super('g', "faint glitter");
+    }
 }
